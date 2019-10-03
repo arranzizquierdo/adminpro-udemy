@@ -8,6 +8,9 @@ import { APP_ROUTES } from './app.routes';
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
 
+// Service
+import { ServiceModule } from './services/service.module';
+
 // Component
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -27,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     APP_ROUTES,
     PagesModule,
     SharedModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
